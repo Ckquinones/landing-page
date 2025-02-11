@@ -142,3 +142,48 @@ button {
   text-align: right;
   font-weight: 500;
 }
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  border: 3px solid #3882f6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  width: 60%;
+}
+
+.cta-text {
+  color: #f9faf8;
+}
+
+.cta-main-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+.cta-subtext {
+  font-size: 16px;
+}
+
+.btn-cta {
+  border: 3px solid #f9faf8;
+  border-radius: 20px;
+}
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 40px 130px;
+}
+
+.footer-text {
+  color: #f9faf8;
+  font-size: 18px;
+}
